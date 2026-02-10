@@ -5,19 +5,12 @@
     {
       "title": "Bank App - Spring Cloud Microservices",
       "description": "Full-stack banking application built with Spring Cloud microservices architecture, demonstrating enterprise-level design patterns and scalable cloud-native development.",
-      "longDescription": "Practice application demonstrating full-stack development skills with microservices",
       "category": "Cloud & Microservices",
-      "technologies": [
-        "Java",
-        "Spring Boot",
-        "Spring Cloud",
-        "Microservices"
-      ],
+      "technologies": ["Java", "Spring Boot", "Spring Cloud", "Microservices"],
       "icon": "fas fa-university",
       "color": "#FF6B6B",
       "image": "https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?w=600&h=400&q=80&fit=crop",
       "featured": true,
-      "github": "https://github.com/Navraj-stack/bank-app-spring-cloud-microservices",
       "links": {
         "github": "https://github.com/Navraj-stack/bank-app-spring-cloud-microservices"
       },
@@ -27,22 +20,14 @@
       }
     },
     {
-      "title": "Data Pipeline with dbt using Airflow on GCP",
+      "title": "Data Pipeline with dbt & Airflow on GCP",
       "description": "End-to-end data pipeline leveraging dbt for data transformations, Apache Airflow for orchestration, deployed on Google Cloud Platform for scalable data processing.",
-      "longDescription": "Modern data pipeline demonstrating clean code principles and cloud data engineering",
       "category": "Data Engineering",
-      "technologies": [
-        "Python",
-        "dbt",
-        "Apache Airflow",
-        "GCP",
-        "BigQuery"
-      ],
+      "technologies": ["Python", "dbt", "Apache Airflow", "GCP", "BigQuery"],
       "icon": "fas fa-database",
       "color": "#4ECDC4",
       "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&q=80&fit=crop",
       "featured": true,
-      "github": "https://github.com/Navraj-stack/data-pipeline-with-dbt-using-airflow-on-gcp",
       "links": {
         "github": "https://github.com/Navraj-stack/data-pipeline-with-dbt-using-airflow-on-gcp"
       },
@@ -52,21 +37,31 @@
       }
     },
     {
+      "title": "Sentiment Analysis WebApp - SageMaker",
+      "description": "Machine learning web application for sentiment analysis deployed on AWS SageMaker, demonstrating modern ML deployment practices and cloud-native architecture.",
+      "category": "Machine Learning",
+      "technologies": ["Python", "AWS SageMaker", "Jupyter", "NLP", "Deep Learning"],
+      "icon": "fas fa-brain",
+      "color": "#9B59B6",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&q=80&fit=crop",
+      "featured": true,
+      "links": {
+        "github": "https://github.com/Navraj-stack/sentiment-analysis-webapp-sagemaker"
+      },
+      "stats": {
+        "status": "Completed",
+        "type": "ML/NLP"
+      }
+    },
+    {
       "title": "Real-Time Fraud Detection",
       "description": "Real-time fraud detection system using industry best practices for identifying and preventing fraudulent transactions with machine learning algorithms.",
-      "longDescription": "Personal development project using industry best practices for fraud detection",
       "category": "Machine Learning",
-      "technologies": [
-        "Python",
-        "Machine Learning",
-        "Real-time Processing",
-        "Analytics"
-      ],
+      "technologies": ["Python", "Machine Learning", "Real-time Processing", "Analytics"],
       "icon": "fas fa-shield-alt",
       "color": "#FFE66D",
       "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&q=80&fit=crop",
       "featured": true,
-      "github": "https://github.com/Navraj-stack/real-time-fraud-detection",
       "links": {
         "github": "https://github.com/Navraj-stack/real-time-fraud-detection"
       },
@@ -76,22 +71,48 @@
       }
     },
     {
+      "title": "Online Grocery Retail - Prediction & Recommendation",
+      "description": "Machine learning project for predicting customer behavior and generating product recommendations for online grocery retail platform.",
+      "category": "Data Science",
+      "technologies": ["Python", "Jupyter", "Pandas", "Scikit-learn", "Recommendation Systems"],
+      "icon": "fas fa-shopping-cart",
+      "color": "#2ECC71",
+      "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "links": {
+        "github": "https://github.com/Navraj-stack/online-grocery-retail---prediction-and-recommendation"
+      },
+      "stats": {
+        "status": "Completed",
+        "type": "ML/Recommendation"
+      }
+    },
+    {
+      "title": "Extracting Structured Data from PDFs",
+      "description": "Comprehensive project for extracting and parsing structured data from PDF documents using modern software design patterns.",
+      "category": "Data Processing",
+      "technologies": ["Python", "PDF Parsing", "Data Extraction", "NLP"],
+      "icon": "fas fa-file-pdf",
+      "color": "#E74C3C",
+      "image": "https://images.unsplash.com/photo-1568667256549-094345857637?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "links": {
+        "github": "https://github.com/Navraj-stack/extracting-structured-data-from-pdfs"
+      },
+      "stats": {
+        "status": "Completed",
+        "type": "Data Processing"
+      }
+    },
+    {
       "title": "Data Science IPython Notebooks",
       "description": "Comprehensive collection of Jupyter notebooks covering data science concepts, machine learning algorithms, and analytical techniques for continuous learning.",
-      "longDescription": "Interactive application built for continuous learning in data science",
       "category": "Data Science",
-      "technologies": [
-        "Python",
-        "Jupyter",
-        "Pandas",
-        "NumPy",
-        "Scikit-learn"
-      ],
-      "icon": "fas fa-brain",
+      "technologies": ["Python", "Jupyter", "Pandas", "NumPy", "Scikit-learn"],
+      "icon": "fas fa-book-open",
       "color": "#A8DADC",
       "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&q=80&fit=crop",
       "featured": false,
-      "github": "https://github.com/Navraj-stack/data-science-ipython-notebooks",
       "links": {
         "github": "https://github.com/Navraj-stack/data-science-ipython-notebooks"
       },
@@ -103,19 +124,12 @@
     {
       "title": "SecPay",
       "description": "Secure payment processing application implementing robust security measures and best practices for handling financial transactions safely.",
-      "longDescription": "Secure payment system with focus on security and reliability",
       "category": "FinTech Security",
-      "technologies": [
-        "JavaScript",
-        "Node.js",
-        "Security",
-        "Payments"
-      ],
+      "technologies": ["JavaScript", "Node.js", "Security", "Payments"],
       "icon": "fas fa-lock",
       "color": "#B19CD9",
       "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&q=80&fit=crop",
       "featured": false,
-      "github": "https://github.com/Navraj-stack/SecPay",
       "links": {
         "github": "https://github.com/Navraj-stack/SecPay"
       },
@@ -127,19 +141,12 @@
     {
       "title": "Data Recovery - ext3",
       "description": "Low-level data recovery tool for ext3 file systems, demonstrating deep understanding of file system internals and system programming in C.",
-      "longDescription": "Data recovery utility for ext3 file systems",
       "category": "Systems Programming",
-      "technologies": [
-        "C",
-        "Linux",
-        "File Systems",
-        "ext3"
-      ],
+      "technologies": ["C", "Linux", "File Systems", "ext3"],
       "icon": "fas fa-hdd",
       "color": "#FF8B94",
       "image": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?w=600&h=400&q=80&fit=crop",
       "featured": false,
-      "github": "https://github.com/Navraj-stack/Data-Recovery-ext3",
       "links": {
         "github": "https://github.com/Navraj-stack/Data-Recovery-ext3"
       },
