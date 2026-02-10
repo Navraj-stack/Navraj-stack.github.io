@@ -1,0 +1,31 @@
+{
+  "_instructions": "Add your education and certifications here.",
+  "sectionTitle": "Education & Certifications",
+  "certificationsTitle": "Certifications",
+  "education": [
+    {
+      "degree": "Bachelor of Science",
+      "school": "University of Texas at Dallas",
+      "institution": "University of Texas at Dallas",
+      "period": "",
+      "details": "GPA: 3.3",
+      "description": "GPA: 3.3"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "AWS Cloud Practitioner",
+      "name": "AWS Cloud Practitioner",
+      "issuer": "AWS",
+      "date": "",
+      "icon": "fas fa-certificate"
+    },
+    {
+      "title": "Certificate of Cybersecurity and Defense",
+      "name": "Certificate of Cybersecurity and Defense",
+      "issuer": "",
+      "date": "",
+      "icon": "fas fa-certificate"
+    }
+  ]
+}

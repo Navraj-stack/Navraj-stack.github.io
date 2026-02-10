@@ -1,0 +1,35 @@
+{
+  "_instructions": "Add your work experience here. Copy the experience object for each job.",
+  "sectionTitle": "Professional Experience",
+  "experiences": [
+    {
+      "title": "Cloud Engineer",
+      "company": "Tenet Healthcare Corporation",
+      "period": "Jan 2025 – Current",
+      "location": "",
+      "description": "Led migration of 10% of on-prem healthcare workloads to AWS, designing secure VPC architectures, subnets, route tables, and NAT Gateways to support scalable cloud adoption. Developed end-to-end CI/CD pipelines using AWS CodePipeline, CodeBuild, and CodeDeploy, enabling automated application deployments and eliminating manual release errors. Implemented enterprise-grade observability using Amazon CloudWatch, CloudTrail, and AWS X-Ray, improving system monitoring, reducing troubleshooting time by 3%, and ensuring audit compliance. Conducted compute and storage cost-optimization across EC2, EBS, and S3, achieving an overall 18% reduction in monthly AWS spend through rightsizing and lifecycle policies. Strengthened cloud security using IAM least-privilege policies, MFA enforcement, and HIPAA-aligned access controls, reducing potential security risks.",
+      "responsibilities": [
+        "Led migration of 10% of on-prem healthcare workloads to AWS, designing secure VPC architectures, subnets, route tables, and NAT Gateways to support scalable cloud adoption",
+        "Developed end-to-end CI/CD pipelines using AWS CodePipeline, CodeBuild, and CodeDeploy, enabling automated application deployments and eliminating manual release errors",
+        "Implemented enterprise-grade observability using Amazon CloudWatch, CloudTrail, and AWS X-Ray, improving system monitoring, reducing troubleshooting time by 3%, and ensuring audit compliance",
+        "Conducted compute and storage cost-optimization across EC2, EBS, and S3, achieving an overall 18% reduction in monthly AWS spend through rightsizing and lifecycle policies",
+        "Strengthened cloud security using IAM least-privilege policies, MFA enforcement, and HIPAA-aligned access controls, reducing potential security risks"
+      ]
+    },
+    {
+      "title": "Cloud Engineer",
+      "company": "Apex Fintech Solutions",
+      "period": "Feb 2023 – Dec 2024",
+      "location": "",
+      "description": "Migrated 35% of legacy trading microservices to a containerized architecture on Amazon EKS, improving scalability and enabling consistent, high-performance service execution during peak trading hours. Designed and implemented automated CI/CD pipelines using AWS CodePipeline, CodeBuild, and blue-green deployment strategies, reducing release failures and improving deployment reliability by 12%. Provisioned cloud infrastructure using Terraform (IaC) to create VPCs, EKS clusters, security groups, IAM roles, DynamoDB tables, and S3 storage with full version control and repeatability. Improved low-latency trading performance by optimizing network paths with NLB/ALB, VPC endpoints, and dynamic auto-scaling, resulting in 22% faster API response times. Strengthened platform security by applying IAM least-privilege policies, MFA, and role separation aligned with SOC2 and FINRA compliance standards. Enhanced compliance and platform resiliency by implementing AWS KMS encryption, secure networking policies, and audit-ready configuration baselines.",
+      "responsibilities": [
+        "Migrated 35% of legacy trading microservices to a containerized architecture on Amazon EKS, improving scalability and enabling consistent, high-performance service execution during peak trading hours",
+        "Designed and implemented automated CI/CD pipelines using AWS CodePipeline, CodeBuild, and blue-green deployment strategies, reducing release failures and improving deployment reliability by 12%",
+        "Provisioned cloud infrastructure using Terraform (IaC) to create VPCs, EKS clusters, security groups, IAM roles, DynamoDB tables, and S3 storage with full version control and repeatability",
+        "Improved low-latency trading performance by optimizing network paths with NLB/ALB, VPC endpoints, and dynamic auto-scaling, resulting in 22% faster API response times",
+        "Strengthened platform security by applying IAM least-privilege policies, MFA, and role separation aligned with SOC2 and FINRA compliance standards",
+        "Enhanced compliance and platform resiliency by implementing AWS KMS encryption, secure networking policies, and audit-ready configuration baselines"
+      ]
+    }
+  ]
+}

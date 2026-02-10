@@ -1,0 +1,79 @@
+{
+  "_instructions": "Organize your skills with vibrant colors.",
+  "sectionTitle": "Skills & Technologies",
+  "categories": [
+    {
+      "category": "Programming Languages",
+      "icon": "fas fa-code",
+      "color": "#FF6B6B",
+      "skills": [
+        "Python",
+        "Bash",
+        "PowerShell",
+        "JavaScript (Node.js)",
+        "Yaml"
+      ]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "icon": "fas fa-toolbox",
+      "color": "#4ECDC4",
+      "skills": [
+        "AWS CDK",
+        "Node.js"
+      ]
+    },
+    {
+      "category": "Tools & Platforms",
+      "icon": "fas fa-wrench",
+      "color": "#FFE66D",
+      "skills": [
+        "Ansible",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "GitHub",
+        "Code Pipeline",
+        "Code Build",
+        "Code Deploy",
+        "Terraform",
+        "Prometheus",
+        "Grafana",
+        "ELK Stack",
+        "CloudTrail",
+        "CloudWatch",
+        "AWS WAF",
+        "Shield",
+        "KMS",
+        "Security Groups",
+        "NACLs",
+        "AWS Security Hub",
+        "Agile",
+        "Scrum",
+        "CI/CD"
+      ]
+    },
+    {
+      "category": "Technical Skills",
+      "icon": "fas fa-laptop-code",
+      "color": "#A8DADC",
+      "skills": [
+        "AWS (EC2, Lambda, ECS, EKS, S3, RDS, DynamoDB, CloudFront, ELB, VPC, IAM, CloudWatch, CloudFormation, Terraform, AWS CDK)",
+        "VPC",
+        "Route 53",
+        "VPN",
+        "Direct Connect",
+        "AWS Transit Gateway",
+        "HIPAA",
+        "GDPR",
+        "SOC",
+        "AWS Cost Explorer",
+        "AWS Budgets",
+        "Right-sizing",
+        "Spot Instances",
+        "Infrastructure as Code (IaC)",
+        "Hybrid Cloud Networking"
+      ]
+    }
+  ]
+}

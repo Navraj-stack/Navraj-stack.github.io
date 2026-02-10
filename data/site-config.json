@@ -1,0 +1,26 @@
+{
+  "_instructions": "Site-wide configuration and meta tags.",
+  "title": "NAVRAJ SINGH | Cloud Engineer",
+  "description": "NAVRAJ SINGH - Cloud Engineer | Portfolio",
+  "keywords": "Cloud Engineer, Portfolio, NAVRAJ SINGH",
+  "author": "NAVRAJ SINGH",
+  "siteName": "NAVRAJ SINGH",
+  "siteTitle": "NAVRAJ SINGH | Cloud Engineer",
+  "meta": {
+    "title": "NAVRAJ SINGH | Cloud Engineer",
+    "description": "NAVRAJ SINGH - Cloud Engineer | Portfolio",
+    "author": "NAVRAJ SINGH",
+    "keywords": "Cloud Engineer, Portfolio, NAVRAJ SINGH"
+  },
+  "branding": {
+    "name": "NAVRAJ SINGH",
+    "tagline": "Cloud Engineer",
+    "logo": "/logo.png"
+  },
+  "settings": {
+    "year": 2026,
+    "enableAnimations": true,
+    "enableParticles": true,
+    "navbarScrollEffect": true
+  }
+}

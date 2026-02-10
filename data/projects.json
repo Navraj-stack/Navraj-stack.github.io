@@ -1,0 +1,202 @@
+{
+  "_instructions": "Add your projects.",
+  "sectionTitle": "Featured Work",
+  "projects": [
+    {
+      "title": "spring-boot-microservices",
+      "description": "Educational project for mastering software architecture",
+      "longDescription": "Educational project for mastering software architecture",
+      "category": "Software Development",
+      "technologies": [
+        "Java"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": true,
+      "github": "https://github.com/Navraj-stack/spring-boot-microservices",
+      "demo": "https://github.com/Navraj-stack/spring-boot-microservices",
+      "links": {
+        "github": "https://github.com/Navraj-stack/spring-boot-microservices",
+        "demo": "https://github.com/Navraj-stack/spring-boot-microservices",
+        "live": "https://github.com/Navraj-stack/spring-boot-microservices"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "mern-ecommerce",
+      "description": "Educational project for mastering software architecture",
+      "longDescription": "Educational project for mastering software architecture",
+      "category": "Data Science",
+      "technologies": [
+        "JavaScript",
+        "SCSS",
+        "Dockerfile",
+        "HTML"
+      ],
+      "icon": "fas fa-brain",
+      "color": "#4ECDC4",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Navraj-stack/mern-ecommerce",
+      "demo": "https://github.com/Navraj-stack/mern-ecommerce",
+      "links": {
+        "github": "https://github.com/Navraj-stack/mern-ecommerce",
+        "demo": "https://github.com/Navraj-stack/mern-ecommerce",
+        "live": "https://github.com/Navraj-stack/mern-ecommerce"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "bank-app-spring-cloud-microservices",
+      "description": "Practice application demonstrating full-stack development skills",
+      "longDescription": "Practice application demonstrating full-stack development skills",
+      "category": "Software Development",
+      "technologies": [
+        "Java"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FFE66D",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Navraj-stack/bank-app-spring-cloud-microservices",
+      "demo": "https://github.com/Navraj-stack/bank-app-spring-cloud-microservices",
+      "links": {
+        "github": "https://github.com/Navraj-stack/bank-app-spring-cloud-microservices",
+        "demo": "https://github.com/Navraj-stack/bank-app-spring-cloud-microservices",
+        "live": "https://github.com/Navraj-stack/bank-app-spring-cloud-microservices"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "data-science-ipython-notebooks",
+      "description": "Interactive application built for continuous learning",
+      "longDescription": "Interactive application built for continuous learning",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "CSS",
+        "Makefile",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#A8DADC",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Navraj-stack/data-science-ipython-notebooks",
+      "demo": "https://github.com/Navraj-stack/data-science-ipython-notebooks",
+      "links": {
+        "github": "https://github.com/Navraj-stack/data-science-ipython-notebooks",
+        "demo": "https://github.com/Navraj-stack/data-science-ipython-notebooks",
+        "live": "https://github.com/Navraj-stack/data-science-ipython-notebooks"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "contribution-history",
+      "description": "Generated GitHub contribution history",
+      "longDescription": "Generated GitHub contribution history",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "color": "#B19CD9",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Navraj-stack/contribution-history",
+      "demo": "https://github.com/Navraj-stack/contribution-history",
+      "links": {
+        "github": "https://github.com/Navraj-stack/contribution-history",
+        "demo": "https://github.com/Navraj-stack/contribution-history",
+        "live": "https://github.com/Navraj-stack/contribution-history"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "us-healthcare-analysis-powerbi",
+      "description": "Personal development project using industry best practices",
+      "longDescription": "Personal development project using industry best practices",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF8B94",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Navraj-stack/us-healthcare-analysis-powerbi",
+      "demo": "https://github.com/Navraj-stack/us-healthcare-analysis-powerbi",
+      "links": {
+        "github": "https://github.com/Navraj-stack/us-healthcare-analysis-powerbi",
+        "demo": "https://github.com/Navraj-stack/us-healthcare-analysis-powerbi",
+        "live": "https://github.com/Navraj-stack/us-healthcare-analysis-powerbi"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Data-Recovery-ext3",
+      "description": "GitHub repository: Data-Recovery-ext3",
+      "longDescription": "GitHub repository: Data-Recovery-ext3",
+      "category": "Software Development",
+      "technologies": [
+        "C"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Navraj-stack/Data-Recovery-ext3",
+      "demo": "https://github.com/Navraj-stack/Data-Recovery-ext3",
+      "links": {
+        "github": "https://github.com/Navraj-stack/Data-Recovery-ext3",
+        "demo": "https://github.com/Navraj-stack/Data-Recovery-ext3",
+        "live": "https://github.com/Navraj-stack/Data-Recovery-ext3"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "SecPay",
+      "description": "GitHub repository: SecPay",
+      "longDescription": "GitHub repository: SecPay",
+      "category": "Backend Development",
+      "technologies": [
+        "JavaScript",
+        "Python",
+        "CSS"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#4ECDC4",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/Navraj-stack/SecPay",
+      "demo": "https://github.com/Navraj-stack/SecPay",
+      "links": {
+        "github": "https://github.com/Navraj-stack/SecPay",
+        "demo": "https://github.com/Navraj-stack/SecPay",
+        "live": "https://github.com/Navraj-stack/SecPay"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    }
+  ]
+}
