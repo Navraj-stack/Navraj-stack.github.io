@@ -3,76 +3,132 @@
   "sectionTitle": "Skills & Technologies",
   "categories": [
     {
-      "category": "Programming Languages",
-      "icon": "fas fa-code",
-      "color": "#FF6B6B",
+      "category": "Cloud Platforms",
+      "icon": "fas fa-cloud",
+      "color": "#FF9900",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
       "skills": [
-        "Python",
-        "Bash",
-        "PowerShell",
-        "JavaScript (Node.js)",
-        "Yaml"
+        { "name": "AWS EC2", "image": "https://icon.icepanel.io/AWS/svg/Compute/EC2.svg" },
+        { "name": "AWS Lambda", "image": "https://icon.icepanel.io/AWS/svg/Compute/Lambda.svg" },
+        { "name": "AWS ECS", "image": "https://icon.icepanel.io/AWS/svg/Containers/Elastic-Container-Service.svg" },
+        { "name": "AWS EKS", "image": "https://icon.icepanel.io/AWS/svg/Containers/Elastic-Kubernetes-Service.svg" },
+        { "name": "AWS S3", "image": "https://icon.icepanel.io/AWS/svg/Storage/Simple-Storage-Service.svg" },
+        { "name": "AWS RDS", "image": "https://icon.icepanel.io/AWS/svg/Database/RDS.svg" },
+        { "name": "DynamoDB", "image": "https://icon.icepanel.io/AWS/svg/Database/DynamoDB.svg" },
+        { "name": "CloudFront", "image": "https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/CloudFront.svg" },
+        { "name": "ELB", "image": "https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Elastic-Load-Balancing.svg" },
+        { "name": "VPC", "image": "https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Virtual-Private-Cloud.svg" },
+        { "name": "IAM", "image": "https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/IAM-Identity-Center.svg" },
+        { "name": "CloudWatch", "image": "https://icon.icepanel.io/AWS/svg/Management-Governance/CloudWatch.svg" },
+        { "name": "CloudFormation", "image": "https://icon.icepanel.io/AWS/svg/Management-Governance/CloudFormation.svg" },
+        { "name": "AWS CDK", "image": "https://icon.icepanel.io/AWS/svg/Management-Governance/CloudFormation.svg" }
       ]
     },
     {
-      "category": "Frameworks & Libraries",
-      "icon": "fas fa-toolbox",
+      "category": "Automation & DevOps",
+      "icon": "fas fa-cogs",
       "color": "#4ECDC4",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
       "skills": [
-        "AWS CDK",
-        "Node.js"
+        { "name": "Terraform", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" },
+        { "name": "Ansible", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" },
+        { "name": "Docker", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+        { "name": "Kubernetes", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" },
+        { "name": "Jenkins", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" },
+        { "name": "GitHub Actions", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+        { "name": "CodePipeline", "image": "https://icon.icepanel.io/AWS/svg/Developer-Tools/CodePipeline.svg" },
+        { "name": "CodeBuild", "image": "https://icon.icepanel.io/AWS/svg/Developer-Tools/CodeBuild.svg" },
+        { "name": "CodeDeploy", "image": "https://icon.icepanel.io/AWS/svg/Developer-Tools/CodeDeploy.svg" },
+        { "name": "CI/CD", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" }
       ]
     },
     {
-      "category": "Tools & Platforms",
-      "icon": "fas fa-wrench",
-      "color": "#FFE66D",
+      "category": "Scripting & Programming",
+      "icon": "fas fa-code",
+      "color": "#3776AB",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
       "skills": [
-        "Ansible",
-        "Docker",
-        "Kubernetes",
-        "Jenkins",
-        "GitHub",
-        "Code Pipeline",
-        "Code Build",
-        "Code Deploy",
-        "Terraform",
-        "Prometheus",
-        "Grafana",
-        "ELK Stack",
-        "CloudTrail",
-        "CloudWatch",
-        "AWS WAF",
-        "Shield",
-        "KMS",
-        "Security Groups",
-        "NACLs",
-        "AWS Security Hub",
-        "Agile",
-        "Scrum",
-        "CI/CD"
+        { "name": "Python", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+        { "name": "Bash", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" },
+        { "name": "PowerShell", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" },
+        { "name": "JavaScript", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+        { "name": "Node.js", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+        { "name": "YAML", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yaml/yaml-original.svg" }
       ]
     },
     {
-      "category": "Technical Skills",
-      "icon": "fas fa-laptop-code",
-      "color": "#A8DADC",
+      "category": "Monitoring & Logging",
+      "icon": "fas fa-chart-line",
+      "color": "#E6522C",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg",
       "skills": [
-        "AWS (EC2, Lambda, ECS, EKS, S3, RDS, DynamoDB, CloudFront, ELB, VPC, IAM, CloudWatch, CloudFormation, Terraform, AWS CDK)",
-        "VPC",
-        "Route 53",
-        "VPN",
-        "Direct Connect",
-        "AWS Transit Gateway",
-        "HIPAA",
-        "GDPR",
-        "SOC",
-        "AWS Cost Explorer",
-        "AWS Budgets",
-        "Right-sizing",
-        "Spot Instances",
-        "Infrastructure as Code (IaC)",
-        "Hybrid Cloud Networking"
+        { "name": "Prometheus", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" },
+        { "name": "Grafana", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" },
+        { "name": "ELK Stack", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg" },
+        { "name": "CloudTrail", "image": "https://icon.icepanel.io/AWS/svg/Management-Governance/CloudTrail.svg" },
+        { "name": "CloudWatch", "image": "https://icon.icepanel.io/AWS/svg/Management-Governance/CloudWatch.svg" },
+        { "name": "AWS X-Ray", "image": "https://icon.icepanel.io/AWS/svg/Developer-Tools/X-Ray.svg" }
+      ]
+    },
+    {
+      "category": "Security",
+      "icon": "fas fa-shield-alt",
+      "color": "#DD344C",
+      "image": "https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/Shield.svg",
+      "skills": [
+        { "name": "AWS WAF", "image": "https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/WAF.svg" },
+        { "name": "AWS Shield", "image": "https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/Shield.svg" },
+        { "name": "AWS KMS", "image": "https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/Key-Management-Service.svg" },
+        { "name": "IAM Policies", "image": "https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/IAM-Identity-Center.svg" },
+        { "name": "Security Groups", "image": "https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Virtual-Private-Cloud.svg" },
+        { "name": "NACLs", "image": "https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Virtual-Private-Cloud.svg" },
+        { "name": "Security Hub", "image": "https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/Security-Hub.svg" },
+        { "name": "MFA", "image": "https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/IAM-Identity-Center.svg" }
+      ]
+    },
+    {
+      "category": "Networking",
+      "icon": "fas fa-network-wired",
+      "color": "#8C4FFF",
+      "image": "https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Virtual-Private-Cloud.svg",
+      "skills": [
+        { "name": "VPC Design", "image": "https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Virtual-Private-Cloud.svg" },
+        { "name": "Route 53", "image": "https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Route-53.svg" },
+        { "name": "VPN", "image": "https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Site-to-Site-VPN.svg" },
+        { "name": "Direct Connect", "image": "https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Direct-Connect.svg" },
+        { "name": "Transit Gateway", "image": "https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Transit-Gateway.svg" },
+        { "name": "NLB/ALB", "image": "https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Elastic-Load-Balancing.svg" },
+        { "name": "VPC Endpoints", "image": "https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Virtual-Private-Cloud.svg" }
+      ]
+    },
+    {
+      "category": "Compliance & Cost",
+      "icon": "fas fa-balance-scale",
+      "color": "#98D8C8",
+      "image": "https://icon.icepanel.io/AWS/svg/Cloud-Financial-Management/Cost-Explorer.svg",
+      "skills": [
+        { "name": "HIPAA", "image": "https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/Artifact.svg" },
+        { "name": "GDPR", "image": "https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/Artifact.svg" },
+        { "name": "SOC2", "image": "https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/Artifact.svg" },
+        { "name": "FINRA", "image": "https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/Artifact.svg" },
+        { "name": "Cost Explorer", "image": "https://icon.icepanel.io/AWS/svg/Cloud-Financial-Management/Cost-Explorer.svg" },
+        { "name": "AWS Budgets", "image": "https://icon.icepanel.io/AWS/svg/Cloud-Financial-Management/Budgets.svg" },
+        { "name": "Right-sizing", "image": "https://icon.icepanel.io/AWS/svg/Cloud-Financial-Management/Cost-and-Usage-Report.svg" },
+        { "name": "Spot Instances", "image": "https://icon.icepanel.io/AWS/svg/Compute/EC2.svg" }
+      ]
+    },
+    {
+      "category": "Methodologies",
+      "icon": "fas fa-tasks",
+      "color": "#F7DC6F",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg",
+      "skills": [
+        { "name": "Agile", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" },
+        { "name": "Scrum", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original.svg" },
+        { "name": "IaC", "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" },
+        { "name": "Hybrid Cloud", "image": "https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Cloud-WAN.svg" },
+        { "name": "Blue-Green", "image": "https://icon.icepanel.io/AWS/svg/Developer-Tools/CodeDeploy.svg" },
+        { "name": "Auto-scaling", "image": "https://icon.icepanel.io/AWS/svg/Compute/EC2-Auto-Scaling.svg" }
       ]
     }
   ]

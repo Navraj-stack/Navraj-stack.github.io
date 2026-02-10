@@ -120,7 +120,7 @@ async function loadHero() {
         const ctaContainer = document.getElementById('hero-cta');
         if (ctaContainer && data.cta && data.cta.buttons) {
             ctaContainer.innerHTML = data.cta.buttons.map(button => `
-                <a href="${button.href}" class="btn btn-${button.type}">
+                <a href="${button.href}" class="btn btn-${button.type}"${button.download ? ' download="Navraj_Singh_Resume.pdf" target="_blank"' : ''}>
                     ${button.icon ? `<i class="${button.icon}"></i>` : ''}
                     ${button.text}
                 </a>
@@ -185,7 +185,7 @@ async function loadAbout() {
         const actionsContainer = document.getElementById('about-actions');
         if (actionsContainer && data.downloadCV) {
             actionsContainer.innerHTML = `
-                <a href="${data.downloadCV.href}" download class="btn btn-primary">
+                <a href="${data.downloadCV.href}" download="Navraj_Singh_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
                     <i class="${data.downloadCV.icon}"></i>
                     ${data.downloadCV.text}
                 </a>
@@ -217,6 +217,9 @@ async function loadExperience() {
                         <i class="${exp.icon}"></i>
                     </div>
                     <div class="timeline-content">
+                        <div class="experience-logo" style="background: ${exp.color}">
+                            ${exp.companyInitials ? `<span class="company-initials">${exp.companyInitials}</span>` : `<i class="${exp.icon}"></i>`}
+                        </div>
                         <div class="experience-header">
                             <h3 class="experience-title">${exp.title}</h3>
                             <p class="experience-company">
@@ -266,12 +269,20 @@ async function loadSkills() {
                 <div class="skill-category">
                     <div class="skill-category-header">
                         <div class="skill-category-icon" style="background: ${category.color}20; color: ${category.color}">
-                            <i class="${category.icon}"></i>
+                            ${category.image ? `<img src="${category.image}" alt="${category.category}" class="skill-category-img">` : `<i class="${category.icon}"></i>`}
                         </div>
                         <h3 class="skill-category-title">${category.category}</h3>
                     </div>
                     <div class="skill-list">
-                        ${category.skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
+                        ${category.skills.map(skill => {
+                            if (typeof skill === 'object') {
+                                return `<span class="skill-tag skill-tag-with-image">
+                                    <img src="${skill.image}" alt="${skill.name}" class="skill-icon">
+                                    ${skill.name}
+                                </span>`;
+                            }
+                            return `<span class="skill-tag">${skill}</span>`;
+                        }).join('')}
                     </div>
                 </div>
             `).join('');
@@ -297,44 +308,48 @@ async function loadProjects() {
         if (projectsGrid && data.projects) {
             projectsGrid.innerHTML = data.projects.map(project => `
                 <div class="project-card">
-                    <div class="project-icon" style="background: ${project.color}">
-                        <i class="${project.icon}"></i>
-                    </div>
-                    <div class="project-header">
-                        <h3 class="project-title">${project.title}</h3>
-                    </div>
-                    <p class="project-description">${project.description}</p>
-                    ${project.technologies ? `
-                        <div class="project-tech">
-                            ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
-                        </div>
-                    ` : ''}
-                    ${project.links ? `
-                        <div class="project-links">
-                            ${project.links.github ? `
-                                <a href="${project.links.github}" target="_blank" rel="noopener noreferrer" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                    Code
-                                </a>
-                            ` : ''}
-                            ${project.links.demo ? `
-                                <a href="${project.links.demo}" target="_blank" rel="noopener noreferrer" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    Live Demo
-                                </a>
-                            ` : ''}
-                        </div>
-                    ` : ''}
-                    ${project.stats ? `
-                        <div class="project-stats">
-                            ${Object.entries(project.stats).map(([key, value]) => `
-                                <div class="project-stat">
-                                    <span class="project-stat-value">${value}</span>
-                                    <span class="project-stat-label">${key}</span>
+                    ${project.image ? `
+                        <div class="project-image">
+                            <img src="${project.image}" alt="${project.title}" loading="lazy">
+                            <div class="project-overlay">
+                                <div class="project-icon-overlay" style="background: ${project.color}">
+                                    <i class="${project.icon}"></i>
                                 </div>
-                            `).join('')}
+                            </div>
                         </div>
-                    ` : ''}
+                    ` : `
+                        <div class="project-icon" style="background: ${project.color}">
+                            <i class="${project.icon}"></i>
+                        </div>
+                    `}
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">${project.title}</h3>
+                            <span class="project-category">${project.category}</span>
+                        </div>
+                        <p class="project-description">${project.description}</p>
+                        ${project.technologies ? `
+                            <div class="project-tech">
+                                ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+                            </div>
+                        ` : ''}
+                        ${project.links ? `
+                            <div class="project-links">
+                                ${project.links.github ? `
+                                    <a href="${project.links.github}" target="_blank" rel="noopener noreferrer" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                        Code
+                                    </a>
+                                ` : ''}
+                                ${project.links.demo ? `
+                                    <a href="${project.links.demo}" target="_blank" rel="noopener noreferrer" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Live Demo
+                                    </a>
+                                ` : ''}
+                            </div>
+                        ` : ''}
+                    </div>
                 </div>
             `).join('');
         }
@@ -359,18 +374,27 @@ async function loadEducation() {
         if (educationGrid && data.education) {
             educationGrid.innerHTML = data.education.map(edu => `
                 <div class="education-card">
-                    <div class="education-icon" style="background: ${edu.color}20; color: ${edu.color}">
-                        <i class="${edu.icon}"></i>
+                    ${edu.image ? `
+                        <div class="education-image">
+                            <img src="${edu.image}" alt="${edu.institution}" loading="lazy">
+                        </div>
+                    ` : `
+                        <div class="education-icon" style="background: ${edu.color}20; color: ${edu.color}">
+                            <i class="${edu.icon}"></i>
+                        </div>
+                    `}
+                    <div class="education-content">
+                        <h3 class="education-degree">${edu.degree}</h3>
+                        <p class="education-institution">${edu.institution}</p>
+                        ${edu.location ? `<p class="education-location"><i class="fas fa-map-marker-alt"></i> ${edu.location}</p>` : ''}
+                        ${edu.period ? `<p class="education-period"><i class="fas fa-calendar-alt"></i> ${edu.period}</p>` : ''}
+                        <p class="education-description">${edu.description}</p>
+                        ${edu.achievements ? `
+                            <ul class="education-achievements">
+                                ${edu.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
+                            </ul>
+                        ` : ''}
                     </div>
-                    <h3 class="education-degree">${edu.degree}</h3>
-                    <p class="education-institution">${edu.institution}</p>
-                    <p class="education-period">${edu.period}</p>
-                    <p class="education-description">${edu.description}</p>
-                    ${edu.achievements ? `
-                        <ul class="education-achievements">
-                            ${edu.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
-                        </ul>
-                    ` : ''}
                 </div>
             `).join('');
         }
