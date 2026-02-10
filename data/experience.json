@@ -5,31 +5,41 @@
     {
       "title": "Cloud Engineer",
       "company": "Tenet Healthcare Corporation",
+      "companyInitials": "THC",
       "period": "Jan 2025 – Current",
-      "location": "",
-      "description": "Led migration of 10% of on-prem healthcare workloads to AWS, designing secure VPC architectures, subnets, route tables, and NAT Gateways to support scalable cloud adoption. Developed end-to-end CI/CD pipelines using AWS CodePipeline, CodeBuild, and CodeDeploy, enabling automated application deployments and eliminating manual release errors. Implemented enterprise-grade observability using Amazon CloudWatch, CloudTrail, and AWS X-Ray, improving system monitoring, reducing troubleshooting time by 3%, and ensuring audit compliance. Conducted compute and storage cost-optimization across EC2, EBS, and S3, achieving an overall 18% reduction in monthly AWS spend through rightsizing and lifecycle policies. Strengthened cloud security using IAM least-privilege policies, MFA enforcement, and HIPAA-aligned access controls, reducing potential security risks.",
+      "location": "TX",
+      "type": "Full-time",
+      "icon": "fas fa-hospital",
+      "color": "#0066CC",
+      "description": "Leading cloud migration and infrastructure optimization for healthcare workloads on AWS.",
       "responsibilities": [
-        "Led migration of 10% of on-prem healthcare workloads to AWS, designing secure VPC architectures, subnets, route tables, and NAT Gateways to support scalable cloud adoption",
-        "Developed end-to-end CI/CD pipelines using AWS CodePipeline, CodeBuild, and CodeDeploy, enabling automated application deployments and eliminating manual release errors",
-        "Implemented enterprise-grade observability using Amazon CloudWatch, CloudTrail, and AWS X-Ray, improving system monitoring, reducing troubleshooting time by 3%, and ensuring audit compliance",
-        "Conducted compute and storage cost-optimization across EC2, EBS, and S3, achieving an overall 18% reduction in monthly AWS spend through rightsizing and lifecycle policies",
-        "Strengthened cloud security using IAM least-privilege policies, MFA enforcement, and HIPAA-aligned access controls, reducing potential security risks"
-      ]
+        "Led migration of 10% of on-prem healthcare workloads to AWS, designing secure VPC architectures, subnets, route tables, and NAT Gateways",
+        "Developed end-to-end CI/CD pipelines using AWS CodePipeline, CodeBuild, and CodeDeploy, enabling automated deployments",
+        "Implemented enterprise-grade observability using Amazon CloudWatch, CloudTrail, and AWS X-Ray, reducing troubleshooting time by 3%",
+        "Achieved 18% reduction in monthly AWS spend through rightsizing and lifecycle policies",
+        "Strengthened cloud security using IAM least-privilege policies, MFA enforcement, and HIPAA-aligned access controls"
+      ],
+      "technologies": ["AWS", "VPC", "EC2", "S3", "CodePipeline", "CloudWatch", "IAM", "HIPAA"]
     },
     {
       "title": "Cloud Engineer",
       "company": "Apex Fintech Solutions",
+      "companyInitials": "APEX",
       "period": "Feb 2023 – Dec 2024",
-      "location": "",
-      "description": "Migrated 35% of legacy trading microservices to a containerized architecture on Amazon EKS, improving scalability and enabling consistent, high-performance service execution during peak trading hours. Designed and implemented automated CI/CD pipelines using AWS CodePipeline, CodeBuild, and blue-green deployment strategies, reducing release failures and improving deployment reliability by 12%. Provisioned cloud infrastructure using Terraform (IaC) to create VPCs, EKS clusters, security groups, IAM roles, DynamoDB tables, and S3 storage with full version control and repeatability. Improved low-latency trading performance by optimizing network paths with NLB/ALB, VPC endpoints, and dynamic auto-scaling, resulting in 22% faster API response times. Strengthened platform security by applying IAM least-privilege policies, MFA, and role separation aligned with SOC2 and FINRA compliance standards. Enhanced compliance and platform resiliency by implementing AWS KMS encryption, secure networking policies, and audit-ready configuration baselines.",
+      "location": "TX",
+      "type": "Full-time",
+      "icon": "fas fa-chart-line",
+      "color": "#00D4AA",
+      "description": "Built and optimized cloud infrastructure for high-frequency trading platforms.",
       "responsibilities": [
-        "Migrated 35% of legacy trading microservices to a containerized architecture on Amazon EKS, improving scalability and enabling consistent, high-performance service execution during peak trading hours",
-        "Designed and implemented automated CI/CD pipelines using AWS CodePipeline, CodeBuild, and blue-green deployment strategies, reducing release failures and improving deployment reliability by 12%",
-        "Provisioned cloud infrastructure using Terraform (IaC) to create VPCs, EKS clusters, security groups, IAM roles, DynamoDB tables, and S3 storage with full version control and repeatability",
-        "Improved low-latency trading performance by optimizing network paths with NLB/ALB, VPC endpoints, and dynamic auto-scaling, resulting in 22% faster API response times",
-        "Strengthened platform security by applying IAM least-privilege policies, MFA, and role separation aligned with SOC2 and FINRA compliance standards",
-        "Enhanced compliance and platform resiliency by implementing AWS KMS encryption, secure networking policies, and audit-ready configuration baselines"
-      ]
+        "Migrated 35% of legacy trading microservices to containerized architecture on Amazon EKS",
+        "Designed automated CI/CD pipelines with blue-green deployment strategies, improving deployment reliability by 12%",
+        "Provisioned cloud infrastructure using Terraform (IaC) for VPCs, EKS clusters, security groups, and DynamoDB",
+        "Improved API response times by 22% through network optimization with NLB/ALB and VPC endpoints",
+        "Strengthened platform security aligned with SOC2 and FINRA compliance standards",
+        "Implemented AWS KMS encryption and audit-ready configuration baselines"
+      ],
+      "technologies": ["AWS", "EKS", "Terraform", "Docker", "Kubernetes", "DynamoDB", "SOC2", "FINRA"]
     }
   ]
 }

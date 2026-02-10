@@ -31,10 +31,5 @@
       "label": "Certifications",
       "color": "#A8DADC"
     }
-  ],
-  "downloadCV": {
-    "text": "Download Resume",
-    "href": "assets/files/resume.pdf",
-    "icon": "fas fa-download"
-  }
+  ]
 }

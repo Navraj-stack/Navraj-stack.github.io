@@ -26,14 +26,15 @@
   "cta": {
     "buttons": [
       {
-        "text": "Get In Touch",
-        "href": "#contact",
+        "text": "Download Resume",
+        "href": "assets/files/resume.pdf",
         "type": "primary",
-        "external": false
+        "icon": "fas fa-download",
+        "download": true
       },
       {
-        "text": "View My Work",
-        "href": "#projects",
+        "text": "Get In Touch",
+        "href": "#contact",
         "type": "secondary",
         "external": false
       }

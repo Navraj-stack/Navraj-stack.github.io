@@ -4,28 +4,34 @@
   "certificationsTitle": "Certifications",
   "education": [
     {
-      "degree": "Bachelor of Science",
+      "degree": "Bachelor of Science in Computer Science",
       "school": "University of Texas at Dallas",
       "institution": "University of Texas at Dallas",
+      "location": "Texas, USA",
       "period": "",
       "details": "GPA: 3.3",
-      "description": "GPA: 3.3"
+      "description": "GPA: 3.3",
+      "image": "assets/images/utdallas-logo.jpg",
+      "icon": "fas fa-graduation-cap",
+      "color": "#C75B12"
     }
   ],
   "certifications": [
     {
       "title": "AWS Cloud Practitioner",
       "name": "AWS Cloud Practitioner",
-      "issuer": "AWS",
+      "issuer": "Amazon Web Services",
       "date": "",
-      "icon": "fas fa-certificate"
+      "icon": "fab fa-aws",
+      "color": "#FF9900"
     },
     {
       "title": "Certificate of Cybersecurity and Defense",
       "name": "Certificate of Cybersecurity and Defense",
       "issuer": "",
       "date": "",
-      "icon": "fas fa-certificate"
+      "icon": "fas fa-shield-alt",
+      "color": "#DD344C"
     }
   ]
 }
