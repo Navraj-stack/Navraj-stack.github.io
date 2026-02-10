@@ -3,8 +3,8 @@
   "greeting": "Hi, I'm",
   "name": "NAVRAJ SINGH",
   "title": "Cloud Engineer",
-  "summary": "Cloud Engineer with 1+ years of experience specializing in Python, Bash, PowerShell.",
-  "avatarUrl": "/avatar.png",
+  "summary": "Cloud Engineer with 3+ years of experience designing, deploying, and optimizing secure, scalable cloud infrastructures on AWS.",
+  "headshot": "assets/images/headshot.jpeg",
   "tagline": "Cloud Engineer",
   "highlights": [
     {
