@@ -3,7 +3,7 @@
   "sectionTitle": "About Me",
   "image": "assets/images/profile.jpg",
   "paragraphs": [
-    "Cloud Engineer with 3 years of experience designing, deploying, and optimizing secure, scalable cloud infrastructures on AWS. Skilled in CI/CD, Terraform, Kubernetes/EKS/AKS, cloud migration, and performance optimization.",
+    "Cloud Engineer with 3+ years of experience designing, deploying, and optimizing secure, scalable cloud infrastructures on AWS. Skilled in CI/CD, Terraform, Kubernetes/EKS/AKS, cloud migration, and performance optimization.",
     "Experienced in building high-availability environments, automating deployments, and ensuring compliance with HIPAA, SOC2, and FINRA. Strong problem-solving skills with a focus on reliability, scalability, and cost-efficiency."
   ],
   "statistics": [
@@ -15,7 +15,7 @@
     },
     {
       "icon": "fas fa-briefcase",
-      "value": "1+",
+      "value": "3+",
       "label": "Years Experience",
       "color": "#4ECDC4"
     },

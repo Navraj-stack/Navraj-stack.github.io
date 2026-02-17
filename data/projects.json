@@ -3,12 +3,63 @@
   "sectionTitle": "Featured Projects",
   "projects": [
     {
+      "title": "DevOps FinTech App - AWS & Terraform",
+      "description": "Full-stack fintech application deployed on AWS using Terraform for infrastructure as code, demonstrating modern DevOps practices and cloud-native deployment strategies.",
+      "category": "DevOps & Cloud",
+      "technologies": ["Python", "AWS", "Terraform", "Docker", "CI/CD"],
+      "icon": "fas fa-cloud",
+      "color": "#FF6B6B",
+      "image": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=600&h=400&q=80&fit=crop",
+      "featured": true,
+      "links": {
+        "github": "https://github.com/Navraj-stack/devopsproject-fintechapp-aws-terraform"
+      },
+      "stats": {
+        "status": "Completed",
+        "type": "DevOps"
+      }
+    },
+    {
+      "title": "Cloud Radar",
+      "description": "Full-stack cloud monitoring and management application for tracking and analyzing cloud infrastructure resources and performance metrics.",
+      "category": "Cloud & Monitoring",
+      "technologies": ["Python", "Cloud Computing", "Monitoring", "Analytics"],
+      "icon": "fas fa-satellite-dish",
+      "color": "#3498DB",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&q=80&fit=crop",
+      "featured": true,
+      "links": {
+        "github": "https://github.com/Navraj-stack/cloud-radar"
+      },
+      "stats": {
+        "status": "Completed",
+        "type": "Cloud"
+      }
+    },
+    {
+      "title": "E2E DevOps K8s Microservices Pipeline",
+      "description": "End-to-end DevOps pipeline for Kubernetes-based microservices, showcasing continuous integration and deployment with container orchestration.",
+      "category": "DevOps & Kubernetes",
+      "technologies": ["JavaScript", "Kubernetes", "Docker", "CI/CD", "Microservices"],
+      "icon": "fas fa-network-wired",
+      "color": "#326CE5",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&q=80&fit=crop",
+      "featured": true,
+      "links": {
+        "github": "https://github.com/Navraj-stack/e2e-devops-k8s-microservices-pipleline"
+      },
+      "stats": {
+        "status": "Completed",
+        "type": "DevOps/K8s"
+      }
+    },
+    {
       "title": "Bank App - Spring Cloud Microservices",
       "description": "Full-stack banking application built with Spring Cloud microservices architecture, demonstrating enterprise-level design patterns and scalable cloud-native development.",
       "category": "Cloud & Microservices",
       "technologies": ["Java", "Spring Boot", "Spring Cloud", "Microservices"],
       "icon": "fas fa-university",
-      "color": "#FF6B6B",
+      "color": "#4ECDC4",
       "image": "https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?w=600&h=400&q=80&fit=crop",
       "featured": true,
       "links": {
@@ -25,7 +76,7 @@
       "category": "Data Engineering",
       "technologies": ["Python", "dbt", "Apache Airflow", "GCP", "BigQuery"],
       "icon": "fas fa-database",
-      "color": "#4ECDC4",
+      "color": "#9B59B6",
       "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&q=80&fit=crop",
       "featured": true,
       "links": {
@@ -42,7 +93,7 @@
       "category": "Machine Learning",
       "technologies": ["Python", "AWS SageMaker", "Jupyter", "NLP", "Deep Learning"],
       "icon": "fas fa-brain",
-      "color": "#9B59B6",
+      "color": "#FFE66D",
       "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&q=80&fit=crop",
       "featured": true,
       "links": {
@@ -51,40 +102,6 @@
       "stats": {
         "status": "Completed",
         "type": "ML/NLP"
-      }
-    },
-    {
-      "title": "Real-Time Fraud Detection",
-      "description": "Real-time fraud detection system using industry best practices for identifying and preventing fraudulent transactions with machine learning algorithms.",
-      "category": "Machine Learning",
-      "technologies": ["Python", "Machine Learning", "Real-time Processing", "Analytics"],
-      "icon": "fas fa-shield-alt",
-      "color": "#FFE66D",
-      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&q=80&fit=crop",
-      "featured": true,
-      "links": {
-        "github": "https://github.com/Navraj-stack/real-time-fraud-detection"
-      },
-      "stats": {
-        "status": "Completed",
-        "type": "ML/Analytics"
-      }
-    },
-    {
-      "title": "Online Grocery Retail - Prediction & Recommendation",
-      "description": "Machine learning project for predicting customer behavior and generating product recommendations for online grocery retail platform.",
-      "category": "Data Science",
-      "technologies": ["Python", "Jupyter", "Pandas", "Scikit-learn", "Recommendation Systems"],
-      "icon": "fas fa-shopping-cart",
-      "color": "#2ECC71",
-      "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "links": {
-        "github": "https://github.com/Navraj-stack/online-grocery-retail---prediction-and-recommendation"
-      },
-      "stats": {
-        "status": "Completed",
-        "type": "ML/Recommendation"
       }
     },
     {
@@ -102,23 +119,6 @@
       "stats": {
         "status": "Completed",
         "type": "Data Processing"
-      }
-    },
-    {
-      "title": "Data Science IPython Notebooks",
-      "description": "Comprehensive collection of Jupyter notebooks covering data science concepts, machine learning algorithms, and analytical techniques for continuous learning.",
-      "category": "Data Science",
-      "technologies": ["Python", "Jupyter", "Pandas", "NumPy", "Scikit-learn"],
-      "icon": "fas fa-book-open",
-      "color": "#A8DADC",
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "links": {
-        "github": "https://github.com/Navraj-stack/data-science-ipython-notebooks"
-      },
-      "stats": {
-        "status": "Completed",
-        "type": "Learning"
       }
     },
     {
